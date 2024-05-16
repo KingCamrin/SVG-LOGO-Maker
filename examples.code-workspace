@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "examples",
+			"path": "../examples"
+		},
+		{
+			"name": "lib",
+			"path": "."
+		},
+		{
+			"name": "node_modules",
+			"path": "../node_modules"
+		}
+	],
+	"settings": {}
+}
