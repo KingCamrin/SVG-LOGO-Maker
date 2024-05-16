@@ -4,12 +4,6 @@ const inquirer = require("inquirer");
 const { writeFile } = require("fs/promises");
 const { Circle, Triangle, Square } = require("./shapes");
 
-module.exports = {
-  SVG,
-  Circle,
-  Triangle,
-  Square
-};
 // svg.js
 
 const SVG1 = {
@@ -20,17 +14,11 @@ const SVG2 = {
   // your second SVG object
 };
 
-
-
-
 // cli.js
 
 class CLI {
-  // cli.js
-}
-
-run();
-    return inquirer
+  run() {
+    inquirer
       .prompt([
         {
           name: "text",
@@ -87,7 +75,8 @@ run();
         console.log(error);
         console.log("Oops! Something went wrong.");
       });
-  
+  }
+}
 
-;
-
+module.exports = CLI;
+       

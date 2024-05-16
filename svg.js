@@ -20,4 +20,5 @@ class SVG {
   }
 }
 
-export default SVG;
+
+module.exports = SVG;
